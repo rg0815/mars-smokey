@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WLAN Manager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div class="topnav">
+    <h1>WLAN Manager</h1>
+</div>
+<div class="content">
+    <div class="card-grid">
+        <div class="card">
+            <h2>MQTT-Settings</h2>
+            <form action="/" method="POST">
+                <div class="form-field">
+                    <label for="mqtt_host">MQTT Host</label>
+                    <input type="text" id="mqtt_host" name="mqtt_host" required minlength="2" value="{{mqtt_host}}">
+                </div>
+                <div class="form-field">
+                    <label for="mqtt_port">MQTT Port</label>
+                    <input type="text" id="mqtt_port" name="mqtt_port" required minlength="2" value="{{mqtt_port}}">
+                </div>
+                <div class="form-field">
+                    <label for="ssid">SSID</label>
+                    <input type="text" id="ssid" name="ssid" required minlength="2" value="{{ssid}}">
+                </div>
+                <div class="form-field">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <br>
+                <h2>Configuration</h2>
+                <div class="form-field">
+                    <label for="433mhz">433 MHz</label>
+                    <input type="checkbox" id="433mhz" name="433mhz" {{checked_433}}>
+                </div>
+                <div class="form-field">
+                    <label for="868mhz">868 MHz</label>
+                    <input type="checkbox" id="868mhz" name="868mhz" {{checked_868}}>
+                </div>
+                <div class="form-field">
+                    <label for="gira">Gira-Module</label>
+                    <input type="checkbox" id="gira" name="gira" {{checked_gira}}>
+                </div>
+
+                <div class="form-field">
+                    <input type="submit" value="Submit">
+                    <br>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <br>
+    <div class="card-grid">
+        <div class="card">
+            <br>
+
+            <button onclick="confirmReset()" style="background-color: darkred">Reset Gateway</button>
+            <br>
+        </div>
+    </div>
+</div>
+
+<script>
+    function confirmReset() {
+        if (confirm("Are you sure you want to reset the gateway?")) {
+            window.location.href = "/reset";
+        }
+    }
+</script>
+</body>
+
+</html>
