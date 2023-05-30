@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backend-notification-service", "backend-notification-service\backend-notification-service.csproj", "{9447BAA0-62F6-41DA-875A-04BC9539F768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backend-system-service", "backend-system-service\backend-system-service.csproj", "{F3053765-481A-439A-8F75-8BFA34223AF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backend-user-service", "backend-user-service\backend-user-service.csproj", "{0DCE081B-47C1-4B67-8D50-7BCEF8B65364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{8FFEAD67-1A93-468A-9084-542DE72555BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mqtt-broker", "mqtt-broker\mqtt-broker.csproj", "{56CD67A6-DA41-4F36-AFD3-371D008028B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneCallTool", "PhoneCallTool\PhoneCallTool.csproj", "{F7256A83-15F9-4087-8DDB-3B70BDCC4ABF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9447BAA0-62F6-41DA-875A-04BC9539F768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9447BAA0-62F6-41DA-875A-04BC9539F768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9447BAA0-62F6-41DA-875A-04BC9539F768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9447BAA0-62F6-41DA-875A-04BC9539F768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3053765-481A-439A-8F75-8BFA34223AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3053765-481A-439A-8F75-8BFA34223AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3053765-481A-439A-8F75-8BFA34223AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3053765-481A-439A-8F75-8BFA34223AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DCE081B-47C1-4B67-8D50-7BCEF8B65364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DCE081B-47C1-4B67-8D50-7BCEF8B65364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DCE081B-47C1-4B67-8D50-7BCEF8B65364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DCE081B-47C1-4B67-8D50-7BCEF8B65364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FFEAD67-1A93-468A-9084-542DE72555BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FFEAD67-1A93-468A-9084-542DE72555BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FFEAD67-1A93-468A-9084-542DE72555BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FFEAD67-1A93-468A-9084-542DE72555BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56CD67A6-DA41-4F36-AFD3-371D008028B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56CD67A6-DA41-4F36-AFD3-371D008028B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56CD67A6-DA41-4F36-AFD3-371D008028B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56CD67A6-DA41-4F36-AFD3-371D008028B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7256A83-15F9-4087-8DDB-3B70BDCC4ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7256A83-15F9-4087-8DDB-3B70BDCC4ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7256A83-15F9-4087-8DDB-3B70BDCC4ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7256A83-15F9-4087-8DDB-3B70BDCC4ABF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
